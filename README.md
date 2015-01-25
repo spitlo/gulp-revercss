@@ -3,6 +3,10 @@ Gulp wrapper for revercss
 
 ##Example use:
 ``` JavaScript
+
+var concat = require('gulp-concat')
+var revercss = require('gulp-revercss')
+
 gulp.task( 'revercss', function() {
   gulp.src('src/revcss/**/*.revcss')
     .pipe(revercss({
