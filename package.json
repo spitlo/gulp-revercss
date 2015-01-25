@@ -1,0 +1,31 @@
+{
+  "name": "gulp-revercss",
+  "version": "0.1.0",
+  "description": "Gulp wrapper for revercss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spitlo/gulp-revercss"
+  },
+  "keywords": [
+    "css",
+    "pre-processor",
+    "lean",
+    "consistent",
+    "workflow",
+    "game-changer",
+    "gulp",
+    "plugin"
+  ],
+  "author": "spitlo",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "^3.0.2",
+    "revercss": "git://github.com/spitlo/revercss",
+    "streamifier": "^0.1.0",
+    "through2": "^0.6.3"
+  }
+}
