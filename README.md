@@ -8,7 +8,7 @@ var concat = require('gulp-concat')
 var revercss = require('gulp-revercss')
 
 gulp.task( 'revercss', function() {
-  gulp.src('src/revcss/**/*.revcss')
+  return gulp.src('src/revcss/**/*.revcss')
     .pipe(revercss({
       minified: true
     }))
