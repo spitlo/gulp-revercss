@@ -1,7 +1,9 @@
 # gulp-revercss
+
 Gulp wrapper for revercss
 
-##Example use:
+## Example use:
+
 ``` JavaScript
 
 var concat = require('gulp-concat')
@@ -16,5 +18,7 @@ gulp.task( 'revercss', function() {
     .pipe(gulp.dest('./build/css'));
 })
 ```
-##Options
+
+## Options
+
 Same as [revercss](https://github.com/spitlo/revercss/)
